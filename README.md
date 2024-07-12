@@ -1,0 +1,1 @@
+A little project made with HTML and CSS. It's simply a loading screen, with animations, also made with the propose of practicing CSS box model.
