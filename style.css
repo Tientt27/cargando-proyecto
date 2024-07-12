@@ -1,0 +1,44 @@
+html{
+    box-sizing:border-box;
+}
+
+*, *::before, *::after {
+
+    box-sizing: inherit;
+}
+
+.big {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: light;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.lit{
+
+    font-style: italic;
+    color: rgb(107, 107, 107);
+     margin-top: 250px;
+}
+
+.load-anim{
+    border-radius: 50%;
+    display: inline-block;
+    width: 75px;
+    height: 75px;
+    border: 8px solid rgba(0, 0, 0, 0.253) ;
+    margin-right: auto;
+    margin-left:auto; 
+    border-right: 8px solid rgb(0, 119, 255);
+    border-top: 8px solid rgb(0, 119, 255);
+    animation: rotate 600ms infinite linear;
+} /*Try adding dotted property to change load circle style*/
+
+@keyframes rotate {
+    to{
+        transform: rotate(1turn)
+    }
+} 
+
