@@ -9,6 +9,7 @@ html{
 
 .big {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:50px;
     font-weight: light;
     width: 600px;
     margin: auto;
@@ -17,20 +18,21 @@ html{
 }
 
 .lit{
-
+    font-size:20px;
     font-style: italic;
     color: rgb(107, 107, 107);
-     margin-top: 250px;
+    margin-top: 30px;
 }
 
 .load-anim{
+    display:block;
     border-radius: 50%;
-    display: inline-block;
     width: 75px;
     height: 75px;
     border: 8px solid rgba(0, 0, 0, 0.253) ;
     margin-right: auto;
-    margin-left:auto; 
+    margin-left:auto;
+    margin-top:50px; 
     border-right: 8px solid rgb(0, 119, 255);
     border-top: 8px solid rgb(0, 119, 255);
     animation: rotate 600ms infinite linear;
@@ -40,5 +42,4 @@ html{
     to{
         transform: rotate(1turn)
     }
-} 
 
